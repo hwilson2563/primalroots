@@ -4,10 +4,7 @@ import backgroundImg from './global/images/coverpage-01.png'
 import logoImg from './global/images/logo.png'
 
 const BackgroundContainer = styled.div`
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ), url(${props => props.backgroundImg});
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${props => props.backgroundImg});
   height: 300px;
   width: 100%;
   background-position: center;
@@ -30,7 +27,7 @@ const Logo = styled.div`
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  box-shadow:rgba(0,0,0,.2) 3px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
   @media screen and (min-width: ${props => props.theme.tablet}px) {
     height: 250px;
     width: 250px;

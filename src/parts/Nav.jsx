@@ -11,10 +11,10 @@ const NavContainer = styled.div`
   align-items: center;
   font-size: 16px;
   @media screen and (min-width: ${props => props.theme.tablet}px) {
-     justify-content: flex-start;
-     max-width: 900px;
-     margin: 0 auto;
-   }
+    justify-content: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
+  }
 `
 const Navs = styled.div`
   width: auto;

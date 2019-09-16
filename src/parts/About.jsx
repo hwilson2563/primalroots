@@ -83,7 +83,7 @@ const CertificationCircle = styled.div`
   width: 20px;
   height: 20px;
   background-color: ${props => props.theme.accentSecondary};
-  padding: 8px;
+  padding: 10px;
   border-radius: 50%;
   margin-right: 10px;
 `
@@ -102,7 +102,7 @@ const About = () => {
     'OHS Assistant Wrestling Coach/Trainer'
   ]
   return (
-    <div>
+    <>
       <AboutContainer id={'about'}>
         <HeadShot src={headShot} />
         <TextContainer>
@@ -152,7 +152,7 @@ const About = () => {
           })}
         </CertificationGroup>
       </Certifications>
-    </div>
+    </>
   )
 }
 

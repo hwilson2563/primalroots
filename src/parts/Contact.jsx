@@ -7,7 +7,7 @@ const ContactContainer = styled.div`
   padding: 30px 20px;
   font-family: ${props => props.theme.fontBasic};
   font-size: 14px;
-  background-color:rgba(66,122,161, .8);
+  background-color: rgba(66, 122, 161, 0.8);
   p {
     margin-left: 10px;
     margin-block-start: unset;
@@ -41,7 +41,7 @@ const FormContainer = styled.div`
   @media screen and (min-width: ${props => props.theme.desktop}px) {
     margin: 0 auto;
   }
- `
+`
 const ContactForm = styled.form`
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ const Name = styled.input`
   @media screen and (min-width: ${props => props.theme.tablet}px) {
     font-size: 16px;
   }
-   @media screen and (min-width: ${props => props.theme.desktop}px) {
+  @media screen and (min-width: ${props => props.theme.desktop}px) {
     min-width: 900px;
   }
 `
@@ -77,10 +77,10 @@ const Send = styled.button`
   border: unset;
   border-radius: 4px;
   margin: 10px;
-  box-shadow:1px 1px 3px ${props => props.theme.fontSecondary};
+  box-shadow: 1px 1px 3px ${props => props.theme.fontSecondary};
   cursor: pointer;
   :hover {
-    box-shadow:1px 1px 5px ${props => props.theme.fontSecondary};
+    box-shadow: 1px 1px 5px ${props => props.theme.fontSecondary};
   }
   @media screen and (min-width: ${props => props.theme.tablet}px) {
     font-size: 16px;
@@ -95,13 +95,15 @@ const Contact = () => {
   return (
     <ContactContainer className={'contact-container'}>
       <FormContainer className={'contact-form'}>
-      <Header id={'contact'}>CONTACT ME</Header>
-      <p>Have questions? Reach out today!</p>
-      <ContactForm action={action} method='POST'>
-        <Name type={'email'} name={'_relpyto'} placeholder={'Enter your email'} />
-        <Message as={'textarea'} name={'message'} placeholder={'Enter your message'} />
-        <Send type={'submit'} aria-label={'submit'}>SEND</Send>
-      </ContactForm>
+        <Header id={'contact'}>CONTACT ME</Header>
+        <p>Have questions? Reach out today!</p>
+        <ContactForm action={action} method='POST'>
+          <Name type={'email'} name={'_relpyto'} placeholder={'Enter your email'} />
+          <Message as={'textarea'} name={'message'} placeholder={'Enter your message'} />
+          <Send type={'submit'} aria-label={'submit'}>
+            SEND
+          </Send>
+        </ContactForm>
       </FormContainer>
     </ContactContainer>
   )

@@ -11,33 +11,32 @@ import Price from './parts/Price'
 import IconGallery from './parts/IconGallery'
 import Media from './parts/Media'
 
-
 const Header = styled.header`
-background-color: ${props=>props.theme.secondBackground};
+  background-color: ${props => props.theme.secondBackground};
 `
 
 const MainBackground = styled.div`
   background-color: ${props => props.theme.background};
   padding-bottom: 10px;
-  `
+`
 class App extends Component {
-  render() {
+  render () {
     return (
       <ThemeProvider theme={theme}>
-      <MainBackground className="App">
-        <Media />
-        <Header className="App-header">
-          <NavMain/>
-          <MainLogo/>
-        </Header>
-        <IconGallery />
-        <About />
-        <Contact />
-        <Price />
-      </MainBackground>
+        <MainBackground className='App'>
+          <Media />
+          <Header className='App-header'>
+            <NavMain />
+            <MainLogo />
+          </Header>
+          <IconGallery />
+          <About />
+          <Contact />
+          <Price />
+        </MainBackground>
       </ThemeProvider>
-    );
+    )
   }
 }
 
-export default App;
+export default App

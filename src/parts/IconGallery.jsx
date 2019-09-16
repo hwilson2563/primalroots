@@ -8,7 +8,7 @@ import FoodIcon from './global/images/svgs/FoodIcon'
 const IconsContainer = styled.div`
   padding: 30px;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   max-width: 900px;
   margin: 0 auto;
 `
@@ -17,7 +17,7 @@ const TxtIconContainer = styled.div`
   h3 {
     text-align: center;
     text-transform: uppercase;
-    font-family: ${props=>props.theme.fontTitle};
+    font-family: ${props => props.theme.fontTitle};
   }
 `
 const IconContainer = styled.div`
@@ -34,7 +34,11 @@ const IconContainer = styled.div`
 `
 
 const IconGallery = () => {
-  const iconList = [{ component: <FitnessIcon />, message: 'Fitness' },{ component: <MindIcon />, message: 'Mind Set' },{ component: <FoodIcon />, message: 'Energy' }]
+  const iconList = [
+    { component: <FitnessIcon />, message: 'Fitness' },
+    { component: <MindIcon />, message: 'Mind Set' },
+    { component: <FoodIcon />, message: 'Energy' }
+  ]
   return (
     <IconsContainer>
       {iconList.map((icon, idx) => {

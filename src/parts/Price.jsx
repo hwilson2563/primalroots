@@ -74,8 +74,7 @@ const Price = () => {
     {
       title: 'Package Four',
       price: 'Rates vary',
-      description:
-        'Busy schedule? Contact Primal Roots to tailor a package to your needs.'
+      description: 'Busy schedule? Contact Primal Roots to tailor a package to your needs.'
     }
   ]
   return (
