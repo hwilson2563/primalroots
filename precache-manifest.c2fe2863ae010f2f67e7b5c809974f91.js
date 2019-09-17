@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3256139e67fc701764c3506a2f427c48",
+    "revision": "75ff8a7419daa7cfc425feabc802612f",
     "url": "/primalroots/index.html"
   },
   {
-    "revision": "ac49e4bb16382332ff99",
+    "revision": "e30975bf82ce8baf4c9c",
     "url": "/primalroots/static/css/main.17c2a90b.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/primalroots/static/js/2.0047a8ec.chunk.js"
   },
   {
-    "revision": "ac49e4bb16382332ff99",
-    "url": "/primalroots/static/js/main.1de36343.chunk.js"
+    "revision": "e30975bf82ce8baf4c9c",
+    "url": "/primalroots/static/js/main.35b2bd26.chunk.js"
   },
   {
     "revision": "b45e57a3a055fe1dc4a7",
