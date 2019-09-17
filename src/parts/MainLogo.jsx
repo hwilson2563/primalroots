@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import backgroundImg from './global/images/coverpage-01.png'
 import logoImg from './global/images/logo.png'

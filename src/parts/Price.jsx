@@ -81,7 +81,7 @@ const Price = () => {
     <Packages id={'price'}>
       <PackageHeader>PACKAGES</PackageHeader>
       <PackageInclude>
-        Services are offered throughout the Northern Virginia area.<br>
+        Services are offered throughout the Northern Virginia area.<br/>
         At-home personal training (1-on-1) packages include: <strong>FREE</strong> first time consultations! Equipment
         is brought to you, including (but not limited to) wallballs, kettlebells, dumbbells, barbells, plates, ab mats,
         and plyoboxes. Remote programming options are also available.
