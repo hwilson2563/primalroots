@@ -28,6 +28,9 @@ const HeadShot = styled.img`
 `
 const TextContainer = styled.div`
   padding: 20px;
+  @media screen and (min-width: ${props => props.theme.tablet}px) {
+    width: 50%;
+   }
 `
 const AboutHeader = styled.h2`
   font-family: ${props => props.theme.fontTitle};
