@@ -116,8 +116,7 @@ const About = () => {
               schedule to research what we’re all about here at Primal Roots.
             </p>
             <p>
-              I’m Audrey, a full time Associate Paralegal, CrossFit and fitness enthusiast, longtime athlete, and
-              Certified Personal Trainer. I’ve always had an affinity for being outside, playing sports and more than
+              I’m Audrey, full-time Trainer and Nutrition Coach, functional fitness enthusiast, and longtime athlete. I’ve always had an affinity for being outside, playing sports and more than
               anything finding a way to help others. I know the difficulty of getting into a gym on a busy schedule, the
               issue with sharing a limited amount of equipment with hundreds of other people and the importance of
               health and fitness, yet the vital need for a healthy balance.
