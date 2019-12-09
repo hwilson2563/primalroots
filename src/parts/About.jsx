@@ -95,14 +95,16 @@ const CertificationTitle = styled.p`
   font-size: 16px;
   color: ${props => props.theme.fontMain};
   margin-left: 10px;
+  max-width: 200px;
 `
 
 const About = () => {
   let certificates = [
     'Certified Personal Trainer',
     'Fitness Nutrition Specialist',
-    'Senior Fitness Specialist (Pursuing)',
-    'OHS Assistant Wrestling Coach/Trainer'
+    'Senior Fitness Specialist',
+    'OHS Assistant Wrestling Coach/Trainer',
+    'LifeTime Athletic Personal Trainer & Nutrition Coach'
   ]
   return (
     <>
