@@ -30,7 +30,7 @@ const TextContainer = styled.div`
   padding: 20px;
   @media screen and (min-width: ${props => props.theme.tablet}px) {
     width: 60%;
-   }
+  }
 `
 const AboutHeader = styled.h2`
   font-family: ${props => props.theme.fontTitle};
@@ -95,14 +95,18 @@ const CertificationTitle = styled.p`
   font-size: 16px;
   color: ${props => props.theme.fontMain};
   margin-left: 10px;
+  @media screen and (min-width: ${props => props.theme.tablet}px) {
+    max-width: 250px;
+  }
 `
 
 const About = () => {
   let certificates = [
     'Certified Personal Trainer',
     'Fitness Nutrition Specialist',
-    'Senior Fitness Specialist (Pursuing)',
-    'OHS Assistant Wrestling Coach/Trainer'
+    'Senior Fitness Specialist',
+    'OHS Assistant Wrestling Coach/Trainer',
+    'LifeTime Athletic Personal Trainer & Nutrition Coach'
   ]
   return (
     <>
@@ -116,11 +120,11 @@ const About = () => {
               schedule to research what we’re all about here at Primal Roots.
             </p>
             <p>
-              I’m Audrey, a full time Associate Paralegal, CrossFit and fitness enthusiast, longtime athlete, and
-              Certified Personal Trainer. I’ve always had an affinity for being outside, playing sports and more than
-              anything finding a way to help others. I know the difficulty of getting into a gym on a busy schedule, the
-              issue with sharing a limited amount of equipment with hundreds of other people and the importance of
-              health and fitness, yet the vital need for a healthy balance.
+              I’m Audrey, full-time Trainer and Nutrition Coach, functional fitness enthusiast, and longtime athlete.
+              I’ve always had an affinity for being outside, playing sports and more than anything finding a way to help
+              others. I know the difficulty of getting into a gym on a busy schedule, the issue with sharing a limited
+              amount of equipment with hundreds of other people and the importance of health and fitness, yet the vital
+              need for a healthy balance.
             </p>
             <p>
               Primal Roots Personal Training was found on the ideals that health and fitness should never be a chore, an
