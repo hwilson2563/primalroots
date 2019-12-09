@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b6f4f7d.chunk.css",
-    "main.js": "/static/js/main.04f39075.chunk.js",
-    "main.js.map": "/static/js/main.04f39075.chunk.js.map",
+    "main.js": "/static/js/main.5ed01208.chunk.js",
+    "main.js.map": "/static/js/main.5ed01208.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.c2a4150b.chunk.js": "/static/js/2.c2a4150b.chunk.js",
     "static/js/2.c2a4150b.chunk.js.map": "/static/js/2.c2a4150b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d1aa08335f39c27ca58c4bdd17b291e6.js": "/precache-manifest.d1aa08335f39c27ca58c4bdd17b291e6.js",
+    "precache-manifest.501cd50c6483b66fe417a38c3860fe01.js": "/precache-manifest.501cd50c6483b66fe417a38c3860fe01.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0b6f4f7d.chunk.css.map": "/static/css/main.0b6f4f7d.chunk.css.map",
     "static/media/Novecentoslabwide-Normal-webfont.woff2": "/static/media/Novecentoslabwide-Normal-webfont.4ce1ae7d.woff2",
-    "static/media/index.css": "/static/media/Novecentoslabwide-Normal-webfont.69f10bb1.woff",
     "static/media/coverpage-01.png": "/static/media/coverpage-01.babec4dc.png",
     "static/media/headshot.jpg": "/static/media/headshot.3aa21426.jpg",
     "static/media/logo.png": "/static/media/logo.8faa3124.png"
