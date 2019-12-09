@@ -83,6 +83,7 @@ const CertificationHeader = styled(AboutHeader)`
   text-align: center;
 `
 const CertificationCircle = styled.div`
+  min-width: 20px;
   width: 20px;
   height: 20px;
   background-color: ${props => props.theme.accentSecondary};
