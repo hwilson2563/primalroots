@@ -36,7 +36,7 @@ const IconContainer = styled.div`
 const IconGallery = () => {
   const iconList = [
     { component: <FitnessIcon />, message: 'Fitness' },
-    { component: <MindIcon />, message: 'Mind Set' },
+    { component: <MindIcon />, message: 'Mindset' },
     { component: <FoodIcon />, message: 'Energy' }
   ]
   return (
