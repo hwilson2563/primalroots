@@ -107,7 +107,7 @@ const About = () => {
     'Fitness Nutrition Specialist',
     'Senior Fitness Specialist',
     'OHS Assistant Wrestling Coach/Trainer',
-    'LifeTime Athletic Personal Trainer & Nutrition Coach'
+    'LifeTime Athletic Personal Trainer'
   ]
   return (
     <>
