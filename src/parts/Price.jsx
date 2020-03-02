@@ -66,11 +66,11 @@ const Price = () => {
   const packages = [
     {
       title: 'Package One',
-      price: '$180.00',
+      price: '$240.00',
       description: '4 sessions (Introductory Rate!) (Sessions must be used within 4-weeks)'
     },
-    { title: 'Package Two', price: '$300.00 ', description: '6 sessions (Sessions must be used within 6-weeks)' },
-    { title: 'Package Three', price: '$500.00 ', description: '10 sessions (Sessions must be used within 12-weeks)' },
+    { title: 'Package Two', price: '$360.00 ', description: '6 sessions (Sessions must be used within 6-weeks)' },
+    { title: 'Package Three', price: '$600.00 ', description: '10 sessions (Sessions must be used within 12-weeks)' },
     {
       title: 'Package Four',
       price: 'Rates vary',
