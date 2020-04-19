@@ -107,7 +107,7 @@ const About = () => {
     'Fitness Nutrition Specialist',
     'Senior Fitness Specialist',
     'OHS Assistant Wrestling Coach/Trainer',
-    'LifeTime Athletic Personal Trainer'
+    'Former Life Time Fitness Professional'
   ]
   return (
     <>
@@ -117,30 +117,41 @@ const About = () => {
           <AboutHeader>ABOUT : PRIMAL ROOTS</AboutHeader>
           <AboutMain>
             <p>
-              First off, welcome! I’m grateful that you’ve checked out our page and have taken time out of your busy
-              schedule to research what we’re all about here at Primal Roots.
+              First off, welcome! I’m grateful that you’ve checked out our page
+              and have taken time out of your busy schedule to research what
+              we’re all about here at Primal Roots.
             </p>
             <p>
-              I’m Audrey, full-time Trainer and Nutrition Coach, functional fitness enthusiast, and longtime athlete.
-              I’ve always had an affinity for being outside, playing sports and more than anything finding a way to help
-              others. I know the difficulty of getting into a gym on a busy schedule, the issue with sharing a limited
-              amount of equipment with hundreds of other people and the importance of health and fitness, yet the vital
-              need for a healthy balance.
+              As a full-time Paralegal and Senior Admin. Assistant,
+              part-time trainer and nutrition specialist, I've come to
+              appreciate the value of time. I’ve always had an affinity for
+              being outside, playing sports and more than anything finding a way
+              to help others. I know the difficulty of getting into a gym on a
+              busy schedule, the issue with sharing a limited amount of
+              equipment with hundreds of other people and the importance of
+              health and fitness, yet the vital need for a healthy balance.
             </p>
             <p>
-              Primal Roots Personal Training was found on the ideals that health and fitness should never be a chore, an
-              activity that causes you to choose between spending time with your kids, significant others, friends, or
-              your health, and a situation in which leaves you feeling vulnerable, uncomfortable or self conscious in a
-              typical gym environment. We are here to tailor a program for you and your life. We want to make this a
-              health and fitness journey that is sustainable, fun, interactive and informative. Heck, we want you to be
-              excited for your session and for the sweat that ensues!
+              Primal Roots Personal Training was found on the ideals that health
+              and fitness should never be a chore, an activity that causes you
+              to choose between spending time with your kids, significant
+              others, friends, or your health, and a situation in which leaves
+              you feeling vulnerable, uncomfortable or self conscious in a
+              typical gym environment. We are here to tailor a program for you
+              and your life. We want to make this a health and fitness journey
+              that is sustainable, fun, interactive and informative. Heck, we
+              want you to be excited for your session and for the sweat that
+              ensues!
             </p>
             <p>
-              Not convinced? Reach out, ask questions, and try us out for a free session. We offer at-home personal
-              training sessions on evenings and weekends and remote personal training as well. Don’t see a package that
-              fits your busy schedule? We will do our best to personalize one for you! We know time is valuable, so
-              thank you for checking us out and we hope to see you soon!
+              Not convinced? Reach out, ask questions, and try us out for a free
+              session. We offer at-home personal training sessions on evenings
+              and weekends and remote personal training as well. Don’t see a
+              package that fits your busy schedule? We will do our best to
+              personalize one for you! We know time is valuable, so thank you
+              for checking us out and we hope to see you soon!
             </p>
+            <p>-xo, Audrey</p>
           </AboutMain>
           <SignUp />
         </TextContainer>
