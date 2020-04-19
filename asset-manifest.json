@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.d96cb6a9.chunk.js",
-    "main.js.map": "/static/js/main.d96cb6a9.chunk.js.map",
+    "main.js": "/static/js/main.cba94f25.chunk.js",
+    "main.js.map": "/static/js/main.cba94f25.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.c2a4150b.chunk.js": "/static/js/2.c2a4150b.chunk.js",
     "static/js/2.c2a4150b.chunk.js.map": "/static/js/2.c2a4150b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.128e8989b5d337b39f7d4ff77eff11f8.js": "/precache-manifest.128e8989b5d337b39f7d4ff77eff11f8.js",
+    "precache-manifest.953aeb2c12af15e96694dc45213f456f.js": "/precache-manifest.953aeb2c12af15e96694dc45213f456f.js",
     "service-worker.js": "/service-worker.js",
     "static/media/Novecentoslabwide-Normal-webfont.woff2": "/static/media/Novecentoslabwide-Normal-webfont.4ce1ae7d.woff2",
     "static/media/coverpage-01.png": "/static/media/coverpage-01.babec4dc.png",
